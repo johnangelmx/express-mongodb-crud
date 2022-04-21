@@ -1,0 +1,25 @@
+{
+  "name": "express-mongodb-crud",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "johnangelmx",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
