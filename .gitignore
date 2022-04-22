@@ -1,2 +1,6 @@
+# dependencies node
 /node_modules
+# enviroment 
 .env
+# dist folder
+/dist

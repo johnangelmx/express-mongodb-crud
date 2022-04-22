@@ -1,8 +1,10 @@
-{{> tasks/TaskForm}}
-{{> tasks/TaskTable}}
-
-
-{{!--
-<script>
-    setInterval("location.reload()", 6000);
-</script> --}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            {{> tasks/TaskForm}}
+        </div>
+        <div class="col-md-7">  
+            {{> tasks/TaskTable}}
+        </div>
+    </div>
+</div>
